@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #333;
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+}
+.container {
+  margin-left: 100%;
+}
+.container img {
+  width: 500px;
+  height: auto;
+}
+.container p {
+  color: #fff;
+  padding: 1%;
+}
