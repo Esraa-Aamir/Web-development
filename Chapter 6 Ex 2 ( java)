@@ -1,0 +1,7 @@
+function Temp() {
+  const fahrenheit = parseInt(document.getElementById("input").value);
+  const celsius = (fahrenheit - 32) * 0.5556;
+  const kelvin = (fahrenheit - 32) * 0.5556 + 273.15;
+  document.getElementById("celsius").innerText = celsius;
+  document.getElementById("kelvin").innerText = kelvin;
+}
