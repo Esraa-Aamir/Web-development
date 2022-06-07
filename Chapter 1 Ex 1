@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Simple HTML Document</title>
+  </head>
+  <body>
+    <h1>This is Heading 1</h1>
+    <!--h1 is biggest heading out of all the 6-->
+    <br />
+    <!--br ends the line and prints the next code in the next line-->
+    <p>This is paragraph 1</p>
+    <!--p tag is used to output paragraphs-->
+    <br />
+    <h2>This is Heading 2</h2>
+    <br />
+    <p>This is paragraph 2</p>
+    <br />
+    <h3>This is Heading 3</h3>
+    <br />
+    <p>This is paragraph 3</p>
+    <br />
+    <h4>This is Heading 4</h4>
+    <br />
+    <p>This is paragraph 4</p>
+    <br />
+    <h5>This is Heading 5</h5>
+    <br />
+    <p>This is paragraph 5</p>
+    <br />
+    <h6>This is Heading 6</h6>
+    <!--h6 is smallest heading out of all the 6-->
+    <br />
+    <p>This is paragraph 6</p>
+  </body>
+</html>
