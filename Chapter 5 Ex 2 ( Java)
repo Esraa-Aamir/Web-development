@@ -1,0 +1,27 @@
+function FirstAudio() {
+  document.getElementById("FirstAudio").play();
+}
+function SecondAudio() {
+  document.getElementById("SecondAudio").play();
+}
+function ThirdAudio() {
+  document.getElementById("ThirdAudio").play();
+}
+function ForthAudio() {
+  document.getElementById("ForthAudio").play();
+}
+function FifthAudio() {
+  document.getElementById("FifthAudio").play();
+}
+function SixthAudio() {
+  document.getElementById("SixthAudio").play();
+}
+function SeventhAudio() {
+  document.getElementById("SeventhAudio").play();
+}
+function EighthAudio() {
+  document.getElementById("EighthAudio").play();
+}
+function NinthAudio() {
+  document.getElementById("NinthAudio").play();
+}
