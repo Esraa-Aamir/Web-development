@@ -1,0 +1,18 @@
+Styling those divs 
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./Ex-2.css" type="text/css" />
+    <title>Styling those divs</title>
+  </head>
+  <body>
+    <!--4 divs-->
+    <div id="A">div#A</div>
+    <div id="B">div#B</div>
+    <div id="C">div#C</div>
+    <div id="D">div#D</div>
+  </body>
+</html>
