@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("./Image/Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.heading {
+  position: relative;
+  width: 93%;
+  top: 0;
+  left: 3%;
+  text-align: center;
+  background: #fff;
+}
+.heading h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #e72f52;
+}
+.container {
+  position: relative;
+  left: 7%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 2rem;
+}
+.container .audio-box {
+  background: #fff;
+  max-width: 400px;
+  height: 150px;
+  border: 7px solid #000;
+  border-radius: 20px;
+  transition: 0.3s ease-in-out;
+}
+.container .audio-box:hover {
+  background: #e72f52;
+  color: #fff;
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.container .audio-box p {
+  text-align: center;
+  position: relative;
+  top: -5%;
+  line-height: 2.5rem;
+}
+@media (max-width: 1250px) {
+  .container .audio-box {
+    max-width: 300px;
+    height: 150px;
+  }
+}
+@media (max-width: 900px) {
+  .container .audio-box {
+    max-width: 200px;
+    height: 150px;
+  }
+}
+@media (max-width: 600px) {
+  .container .audio-box {
+    max-width: 100px;
+    height: 150px;
+  }
+  .container .audio-box p {
+    line-height: 2rem;
+  }
+}
