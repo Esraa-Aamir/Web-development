@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./Ex-2.css" />
+  </head>
+  <body>
+    <div class="heading">
+      <h2>Audio Sampler</h2>
+    </div>
+    <div class="container">
+      <div onclick="FirstAudio()" class="audio-box">
+        <p>10. <br />Ah-Ha <br />1.4</p>
+      </div>
+      <div onclick="SecondAudio()" class="audio-box">
+        <p>11. <br />Dan <br />0.5</p>
+      </div>
+      <div onclick="ThirdAudio()" class="audio-box">
+        <p>12. <br />Back of the net <br />1.02</p>
+      </div>
+      <div onclick="ForthAudio()" class="audio-box">
+        <p>13. <br />Bang out of order <br />1.49</p>
+      </div>
+      <div onclick="FifthAudio()" class="audio-box">
+        <p>14. <br />Jurassic Park <br />1.49</p>
+      </div>
+      <div onclick="SixthAudio()" class="audio-box">
+        <p>15. <br />Smell my cheese <br />1.91</p>
+      </div>
+      <div onclick="SeventhAudio()" class="audio-box">
+        <p>16. <br />Goal <br />1.49</p>
+      </div>
+      <div onclick="EighthAudio()" class="audio-box">
+        <p>17. <br />Kiss my face <br />1.07</p>
+      </div>
+      <div onclick="NinthAudio()" class="audio-box">
+        <p>18. <br />Hello Partridge <br />2.25</p>
+      </div>
+    </div>
+    <audio id="FirstAudio" src="./Sounds/Ah-Ha.mp3" hidden></audio>
+    <audio id="SecondAudio" src="./Sounds/Dan.mp3" hidden></audio>
+    <audio id="ThirdAudio" src="./Sounds/Back Of The Net.mp3" hidden></audio>
+    <audio id="ForthAudio" src="./Sounds/Bang Out Of Order.mp3" hidden></audio>
+    <audio id="FifthAudio" src="./Sounds/Jurassic Park.mp3" hidden></audio>
+    <audio id="SixthAudio" src="./Sounds/Smell My Cheese.mp3" hidden></audio>
+    <audio id="SeventhAudio" src="./Sounds/Goal.mp3" hidden></audio>
+    <audio id="EighthAudio" src="./Sounds/Kiss my Face.mp3" hidden></audio>
+    <audio id="NinthAudio" src="./Sounds/Hello Partridge.mp3" hidden></audio>
+  </body>
+  <script src="./Ex-3.js"></script>
+</html>
