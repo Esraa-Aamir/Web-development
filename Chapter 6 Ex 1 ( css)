@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+body {
+  background-image: url("./Assests/Outer\ BG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.game {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  margin: auto;
+  background-image: url("./Assests/Inner\ BG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+}
+#character {
+  width: 90px;
+  height: 130px;
+  background-image: url("./Assests/Character.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 370px;
+}
+.animate {
+  animation: jump 0.5s linear;
+}
+@keyframes jump {
+  0% {
+    top: 370px;
+  }
+  30% {
+    top: 320px;
+  }
+  50% {
+    top: 320px;
+  }
+  70% {
+    top: 320px;
+  }
+  100% {
+    top: 370px;
+  }
+}
+#block {
+  background-image: url("./Assests/Block.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60px;
+  height: 70px;
+  position: relative;
+  top: 305px;
+  left: 500px;
+  animation: block 2s infinite linear;
+}
+@keyframes block {
+  0% {
+    left: 500px;
+  }
+  100% {
+    left: -20px;
+  }
+}
+p {
+  text-align: center;
+  font-size: xx-large;
+  color: #fff;
+  position: absolute;
+  left: 25%;
+  top: 20%;
+}
